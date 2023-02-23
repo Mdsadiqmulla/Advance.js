@@ -1,0 +1,10 @@
+// Variable declaration is hoisted
+console.log(a); // Output: undefined
+var a = 10;
+
+// Function declaration is hoisted
+myFunction();
+
+function myFunction() {
+  console.log('Hello, world!');
+}
