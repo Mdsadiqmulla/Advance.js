@@ -1,0 +1,26 @@
+// #Function example
+function greet(name) {
+  console.log("Hello, " + name + "!");
+}
+
+// #Calling a function
+greet("John"); // Output: Hello, John!
+
+// #Return statement
+function multiply(num1, num2) {
+  return num1 * num2;
+}
+
+console.log(multiply(2, 3)); // Output: 6
+
+// #Anonymous function
+setTimeout(function() {
+  console.log("Time's up!");
+}, 5000); // Output: (waits 5 seconds) Time's up!
+
+// #Arrow function
+const add = (a, b) => {
+  return a + b;
+}
+
+console.log(add(2, 3)); // Output: 5
